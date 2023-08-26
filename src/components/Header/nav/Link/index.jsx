@@ -7,6 +7,7 @@ import Magnetic from "../../../common/Magnetic";
 export default function Index({data, isActive, setSelectedIndicator}) {
   
     const { title, href, index} = data;
+    const href1 = "#"; 
   
     return (
       <motion.div 
@@ -24,7 +25,7 @@ export default function Index({data, isActive, setSelectedIndicator}) {
           className={styles.indicator}>
         </motion.div>
         <Magnetic>
-          <Link href={href}>{title}</Link>  
+          <Link href={href1}>{title}</Link>  
         </Magnetic>
       </motion.div>
     )
