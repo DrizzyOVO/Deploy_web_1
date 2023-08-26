@@ -25,7 +25,7 @@ export default function Index({data, isActive, setSelectedIndicator}) {
           className={styles.indicator}>
         </motion.div>
         <Magnetic>
-          <Link href={href1}>{title}</Link>  
+          <Link>{title}</Link>  
         </Magnetic>
       </motion.div>
     )
