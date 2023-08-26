@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const words = ["Hello", "Bonjour", "Ciao", "Olà", "やあ", "Hallå", "Guten tag", "Hallo"]
 
 
-export default function index(){
+export default function Index(){
 
     const [index, setIndex] = useState(0); 
     const [dimension, setDimension] = useState({width: 0, height: 0}) 

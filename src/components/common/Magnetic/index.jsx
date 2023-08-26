@@ -3,7 +3,7 @@ import styles from "./style.module.scss";
 import { Courier_Prime } from "next/font/google"; 
 import { gsap } from "gsap"; 
 
-export default function index({children}){
+export default function Index({children}){
 
     const magnetic = useRef(null); 
 

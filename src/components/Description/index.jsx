@@ -4,7 +4,7 @@ import { slideUp, opacity } from './animation';
 import { useRef } from "react";
 import Button from "../common/Button"; 
 
-export default function index(){
+export default function Index(){
 
     const container = useRef(null); 
     const isInView = useInView(container); 

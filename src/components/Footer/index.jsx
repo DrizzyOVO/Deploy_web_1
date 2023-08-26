@@ -5,7 +5,7 @@ import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Button from "../common/Button";  
 import Magnetic from "../common/Magnetic";
 
-export default function index() {
+export default function Index() {
 
     const container = useRef(null); 
     const {scrollYProgress} = useScroll({
@@ -29,7 +29,7 @@ export default function index() {
                             src={`/images/background.jpg`}
                             />
                         </div>
-                        <h2>Let's work</h2>
+                        <h2>Let`&apos;`s work</h2>
                     </span>
                     <h2>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>   

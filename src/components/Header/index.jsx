@@ -9,7 +9,7 @@ import { scale } from "./animation";
 import Button from "../common/Button"; 
 import Magnetic from "../common/Magnetic"; 
 
-export default function index(){
+export default function Index(){
     const [isActive, setIsActive] = useState(false); 
     const burger = useRef(null); 
 

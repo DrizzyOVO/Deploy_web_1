@@ -1,7 +1,7 @@
 import styles from './style.module.scss';
 import Magnetic from "../../../common/Magnetic"; 
 
-export default function index() {
+export default function Index() {
   return (
     <div className={styles.nav}> 
       {/* <Magnetic>

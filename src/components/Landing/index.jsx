@@ -11,7 +11,7 @@ export default function Home() {
   const firstText = useRef(null); 
   const secondtext = useRef(null); 
   let xPercent = 0; 
-  let direction = 1; 
+  let direction = 1;  
 
   useEffect( () => {
     gsap.registerPlugin(ScrollTrigger); 
